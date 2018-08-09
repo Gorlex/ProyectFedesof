@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_comentario: MyString
+  comentario_publicacion: MyString
+  tipo_comentario: MyString
+  fecha: MyString
+  id_evento: MyString
+
+two:
+  id_comentario: MyString
+  comentario_publicacion: MyString
+  tipo_comentario: MyString
+  fecha: MyString
+  id_evento: MyString

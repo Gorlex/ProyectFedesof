@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idamigo: MyString
+  de: MyString
+  para: MyString
+  fecha: MyString
+  mensajes: MyString
+
+two:
+  idamigo: MyString
+  de: MyString
+  para: MyString
+  fecha: MyString
+  mensajes: MyString

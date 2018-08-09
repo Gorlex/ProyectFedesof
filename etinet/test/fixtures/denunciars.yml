@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  iddenuncia: MyString
+  idusuario: MyString
+  usudenun: MyString
+  numero: MyString
+
+two:
+  iddenuncia: MyString
+  idusuario: MyString
+  usudenun: MyString
+  numero: MyString

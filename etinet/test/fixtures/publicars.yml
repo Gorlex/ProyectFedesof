@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idpubli: MyString
+  fecha: MyString
+  rutapubli: MyString
+  id_comentario: MyString
+  idusuario: MyString
+  estado: MyString
+  tipo_publi: MyString
+
+two:
+  idpubli: MyString
+  fecha: MyString
+  rutapubli: MyString
+  id_comentario: MyString
+  idusuario: MyString
+  estado: MyString
+  tipo_publi: MyString
