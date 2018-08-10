@@ -1,14 +1,12 @@
 class CreatePublicars < ActiveRecord::Migration[5.2]
   def change
     create_table :publicars do |t|
-      t.string :idpubli
-      t.string :fecha
+      t.timestamps :fecha
       t.string :rutapubli
-      t.string :id_comentario
+      t.integer :id_comentario
       t.string :idusuario
-      t.string :estado
-      t.string :tipo_publi
-
+      t.integer :estado
+      enum tipo_publi: [:lc, :nlc, :li]
       t.timestamps
     end
   end

@@ -1,11 +1,10 @@
 class CreateComentarios < ActiveRecord::Migration[5.2]
   def change
     create_table :comentarios do |t|
-      t.string :id_comentario
       t.string :comentario_publicacion
-      t.string :tipo_comentario
-      t.string :fecha
-      t.string :id_evento
+      enum tipo_comentario: [:lc, :nlc, :li]
+      t.timestamps :fecha
+      t.integer :id_evento
 
       t.timestamps
     end
